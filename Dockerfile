@@ -8,7 +8,7 @@ RUN go mod download
 COPY . .
 RUN cd ./v2/cmd/nuclei && go build -o nuclei .
 
-FROM alpine
+FROM alpine:3.15.4
 
 RUN mkdir /app
 RUN adduser --home /app --shell /bin/sh --disabled-password appuser
