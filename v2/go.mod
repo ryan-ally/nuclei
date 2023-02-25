@@ -18,7 +18,6 @@ require (
 	github.com/projectdiscovery/fastdialer v0.0.2
 	github.com/projectdiscovery/gologger v1.0.1
 	github.com/projectdiscovery/hmap v0.0.1
-	github.com/projectdiscovery/nuclei/v2 v2.2.0
 	github.com/projectdiscovery/rawhttp v0.0.4
 	github.com/projectdiscovery/retryabledns v1.0.5
 	github.com/projectdiscovery/retryablehttp-go v1.0.1
@@ -27,6 +26,6 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/stretchr/testify v1.6.1
 	go.uber.org/ratelimit v0.1.0
-	golang.org/x/net v0.0.0-20201216054612-986b41b23924
+	golang.org/x/net v0.7.0
 	gopkg.in/yaml.v2 v2.4.0
 )
